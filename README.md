@@ -1,3 +1,36 @@
+1. Set up your React repository & API keys.
+   in list To Do
+   Labels
+   Lab 6
+   Notifications
+   Description
+   Use the task list here to ensure your repo is configured for this project. Do not skip any steps.
+
+When you have the basic setup done, your repo structure should look something like:
+
+city-explorer
+├── .env
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
+├── public/
+└── src/
+|\_\_App.js
+Task List
+0%
+Create a new repo called city-explorer on GitHub, initialized with no files.
+Use create-react-app to setup a new React application named city-explorer in your local projects directory.
+Connect your GitHub repo to your local repo using the directions on GitHub.
+Convert the README.md file to be documentation regarding your lab and its current state of development. Check the "documentation" section of the lab assignment for more details on how that should look.
+Deploy the basic react app to Netlify.
+Install axios as a dependancy to your project using npm install axios
+If you haven't already, procure a LocationIQ free-tier account. From the Dashboard, navigate to your API Access Tokens page. View, then Update the existing token, to change the label to "City Explorer". LocationIQ - Free Reverse Geocoding API, Geocoding API, Autocomplete API
+Add your deployed Netlify app url as an HTTP Referrer to your API token settings. This step is necessary to prevent any unauthorized use of your token. Also add localhost while testing from your development environment.
+Create an .env file: Your API key goes here for local development. Make sure this file is in your .gitignore.
+Add your API key to your Netlify deployment. Under "Site settings" > "Build & deploy" > "Environment", you need to add "Edit variables" to add your API key, giving it the same name you used in your local .env file.
+Activity
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
