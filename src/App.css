@@ -11,6 +11,10 @@ form {
   flex: row;
   align-content: space-between;
 }
+
+button {
+  margin-left: 20px;
+}
 map {
   padding: 20px;
   background-color: green;
