@@ -2,7 +2,9 @@
   max-width: 300px;
   margin-left: 50px;
 }
-
+form {
+  width: 200px;
+}
 map {
   padding: 5px;
   border: 1px solid black;
