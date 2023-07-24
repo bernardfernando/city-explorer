@@ -7,6 +7,9 @@
 form {
   width: 400px;
   font-size: 1.6rem;
+  display: flex;
+  flex: row;
+  align-content: space-between;
 }
 map {
   padding: 20px;
