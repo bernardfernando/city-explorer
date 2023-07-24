@@ -4,9 +4,10 @@
 }
 form {
   width: 400px;
+  font-size: 1.6rem;
 }
 map {
-  padding: 5px;
+  padding: 20px;
 }
 
 img {
