@@ -38,7 +38,7 @@ function App() {
         />
         <button type="submit">Explorer</button>
       </form>
-      <p>{location.display_name}</p>
+      <p className="map">{location.display_name}</p>
 
       {map && <img src={map} alt="map" />}
     </div>
