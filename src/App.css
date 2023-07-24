@@ -1,5 +1,5 @@
 .App {
-  max-width: 300px;
+  max-width: 400px;
   margin-left: 50px;
 }
 form {
@@ -7,10 +7,9 @@ form {
 }
 map {
   padding: 5px;
-  border: 1px solid black;
 }
 
 img {
   border: 1px solid red;
-  padding: 5px;
+  padding: 10px;
 }
